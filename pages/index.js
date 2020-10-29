@@ -12,6 +12,7 @@ import Testimonials from "../components/testimonials";
 import AboutMe from "../components/about-me";
 import Contact from "../components/contact";
 import Footer from "../components/footer";
+import FAQ from "../components/faq";
 
 export default function Home() {
   return (
@@ -62,6 +63,10 @@ export default function Home() {
           integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
           crossOrigin="anonymous"
         />
+        <link
+          href="assetsM/vendor/boxicons/css/boxicons.min.css"
+          rel="stylesheet"
+        ></link>
       </Head>
       <div>
         <Navbar />
@@ -74,6 +79,7 @@ export default function Home() {
           <Clients />
           <Testimonials />
           <AboutMe />
+          <FAQ />
           <Contact />
         </main>
         <Footer />
