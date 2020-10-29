@@ -57,7 +57,7 @@ const Footer = () => {
                   href="https://www.facebook.com/VirtualManagementResources/"
                   className="facebook"
                 >
-                  <i className="fa fa-facebook"></i>
+                  <i className="fab fa-facebook"></i>
                 </a>
                 {/* <a href="#" className="instagram">
                   <i className="fa fa-instagram"></i>
@@ -69,7 +69,7 @@ const Footer = () => {
                   href="https://www.linkedin.com/in/katelyn-banman-b3ba1b7/"
                   className="linkedin"
                 >
-                  <i className="fa fa-linkedin"></i>
+                  <i className="fab fa-linkedin"></i>
                 </a>
               </div>
             </div>

@@ -40,20 +40,22 @@ const AboutMe = () => {
               <img src="kate.jpg" className="img-fluid" alt="" />
               <div className="member-info">
                 <div className="member-info-content">
-                  <h4>Amanda Jepson</h4>
-                  <span>Accountant</span>
+                  <h4>Katelyn Banman</h4>
+                  <span>Online Business Manager</span>
+                  <span>Virtual Assistant</span>
+
                   <div className="social">
-                    <a href="">
+                    {/* <a href="https://www.facebook.com/VirtualManagementResources/">
                       <i className="fa fa-twitter"></i>
+                    </a> */}
+                    <a href="https://www.facebook.com/VirtualManagementResources/">
+                      <i className="fab fa-facebook"></i>
                     </a>
-                    <a href="">
-                      <i className="fa fa-facebook"></i>
-                    </a>
-                    <a href="">
+                    {/* <a href="">
                       <i className="fa fa-google-plus"></i>
-                    </a>
-                    <a href="">
-                      <i className="fa fa-linkedin"></i>
+                    </a> */}
+                    <a href="https://www.linkedin.com/in/katelyn-banman-b3ba1b7/">
+                      <i className="fab fa-linkedin"></i>
                     </a>
                   </div>
                 </div>
