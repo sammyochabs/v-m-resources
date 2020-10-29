@@ -5,16 +5,19 @@ const CallToAction = () => {
     <div>
       <section id="call-to-action">
         <div className="container text-center" data-aos="zoom-in">
-          <h3>Call To Action</h3>
+          <h3>Take Control</h3>
           <p>
-            {" "}
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.
+            Start being the OWNER of your business again. Get your time back and
+            begin being the visionary and entrepreneur you once were. Schedule a
+            time to discuss how we can help you achieve your current and future
+            goals. From small tasks, to creating systems and processes that run
+            the backend of your business, Virtual Management Resources can help
+            with it all. Let&rsquo;s come up with the perfect solutions for your
+            business&rsquo;s needs. Do not waste any more of your time trying to
+            do it all yourself!
           </p>
-          <a className="cta-btn" href="#">
-            Call To Action
+          <a class="cta-btn" href="#">
+            Hire Me
           </a>
         </div>
       </section>

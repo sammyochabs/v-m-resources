@@ -6,36 +6,35 @@ export default function AboutUs() {
       <section id="about">
         <div className="container" data-aos="fade-up">
           <header className="section-header">
-            <h3>About Us</h3>
+            <h3>Virtual Management Resourses</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              Virtual Management Resources is here to support your unique
+              business challenges - no matter what stage your business is in.
+              From the sole entrepreneurial startup in need of a Virtual
+              Assistant, to the established, multi-team business looking take
+              their organization to the next level with an Online Business
+              Manager, I provide solutions to your challenges with
+              cost-effective scalability based on your specific needs.
             </p>
           </header>
 
-          <div className="row about-cols">
+          <div className="row about-cols  d-flex  justify-content-center">
             <div className="col-md-4" data-aos="fade-up" data-aos-delay="100">
               <div className="about-col">
                 <div className="img">
-                  <img
-                    src="assets/img/about-mission.jpg"
-                    alt=""
-                    className="img-fluid"
-                  />
+                  <img src="about-1.jpg" alt="" className="img-fluid" />
                   <div className="icon">
                     <i className="ion-ios-speedometer-outline"></i>
                   </div>
                 </div>
-                <h2 className="title">
-                  <a href="#">Our Mission</a>
+                <h2 class="title">
+                  <a href="#">Online Business Management</a>
                 </h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod
-                  tempor ut labore et dolore magna aliqua. Ut enim ad minim
-                  veniam, quis nostrud exercitation ullamco laboris nisi ut
-                  aliquip ex ea commodo consequat.
+                  Businesses thrive when operations are streamlined. As an
+                  Online Business Manager, I take care of the details so
+                  established companies continue to grow. I will manage the
+                  day-to-day operations and team communications
                 </p>
               </div>
             </div>
@@ -43,47 +42,19 @@ export default function AboutUs() {
             <div className="col-md-4" data-aos="fade-up" data-aos-delay="200">
               <div className="about-col">
                 <div className="img">
-                  <img
-                    src="assets/img/about-plan.jpg"
-                    alt=""
-                    className="img-fluid"
-                  />
+                  <img src="about-2.jpg" alt="" className="img-fluid" />
                   <div className="icon">
                     <i className="ion-ios-list-outline"></i>
                   </div>
                 </div>
-                <h2 className="title">
-                  <a href="#">Our Plan</a>
+                <h2 class="title">
+                  <a href="#">Virtual Assistance</a>
                 </h2>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-                  illo inventore veritatis et quasi architecto beatae vitae
-                  dicta sunt explicabo.
-                </p>
-              </div>
-            </div>
-
-            <div className="col-md-4" data-aos="fade-up" data-aos-delay="300">
-              <div className="about-col">
-                <div className="img">
-                  <img
-                    src="assets/img/about-vision.jpg"
-                    alt=""
-                    className="img-fluid"
-                  />
-                  <div className="icon">
-                    <i className="ion-ios-eye-outline"></i>
-                  </div>
-                </div>
-                <h2 className="title">
-                  <a href="#">Our Vision</a>
-                </h2>
-                <p>
-                  Nemo enim ipsam voluptatem quia voluptas sit aut odit aut
-                  fugit, sed quia magni dolores eos qui ratione voluptatem sequi
-                  nesciunt Neque porro quisquam est, qui dolorem ipsum quia
-                  dolor sit amet.
+                  Are you not quite ready to bring on a business manager?  No
+                  problem, I will be your virtual assistant, taking on tasks to
+                  free up your time and resources so you can do what you do best
+                  – grow your business. 
                 </p>
               </div>
             </div>

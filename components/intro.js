@@ -16,19 +16,18 @@ export default function Intro() {
               <div
                 className="carousel-item active"
                 style={{
-                  backgroundImage: "url(assets/img/intro-carousel/1.jpg)",
+                  backgroundImage: "url(intro-1.jpg)",
                 }}
               >
-                <div className="carousel-container">
+                <div className="carousel-container my-5">
                   <div className="container">
                     <h2 className="animate__animated animate__fadeInDown">
-                      We are professional
+                      Virtual Management Resources
                     </h2>
-                    <p className="animate__animated animate__fadeInUp">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    <p class="animate__animated animate__fadeInUp mt-5">
+                      Virtual Management Resources is here to support your
+                      unique business challenges - no matter what stage your
+                      business is in.
                     </p>
                     <a
                       href="#featured-services"
@@ -43,20 +42,18 @@ export default function Intro() {
               <div
                 className="carousel-item"
                 style={{
-                  backgroundImage: "url(assets/img/intro-carousel/2.jpg)",
+                  backgroundImage: "url(intro-2.jpg)",
                 }}
               >
-                <div className="carousel-container">
+                <div className="carousel-container  mt-5">
                   <div className="container">
-                    <h2 className="animate__animated animate__fadeInDown">
-                      At vero eos et accusamus
+                    <h2 class="animate__animated animate__fadeInDown">
+                      Online Business Manager
                     </h2>
-                    <p className="animate__animated animate__fadeInUp">
-                      Nam libero tempore, cum soluta nobis est eligendi optio
-                      cumque nihil impedit quo minus id quod maxime placeat
-                      facere possimus, omnis voluptas assumenda est, omnis dolor
-                      repellendus. Temporibus autem quibusdam et aut officiis
-                      debitis aut.
+                    <p class="animate__animated animate__fadeInUp">
+                      Businesses thrive when operations are streamlined.&nbsp;As
+                      an Online Business Manager, I take care of the details so
+                      established companies continue to grow.
                     </p>
                     <a
                       href="#featured-services"
@@ -74,17 +71,17 @@ export default function Intro() {
                   backgroundImage: "url(assets/img/intro-carousel/3.jpg)",
                 }}
               >
-                <div className="carousel-container">
+                <div className="carousel-container  mt-5">
                   <div className="container">
-                    <h2 className="animate__animated animate__fadeInDown">
-                      Temporibus autem quibusdam
+                    <h2 class="animate__animated animate__fadeInDown">
+                      Virtual Assistant
                     </h2>
-                    <p className="animate__animated animate__fadeInUp">
-                      Beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                      voluptatem quia voluptas sit aspernatur aut odit aut
-                      fugit, sed quia consequuntur magni dolores eos qui ratione
-                      voluptatem sequi nesciunt omnis iste natus error sit
-                      voluptatem accusantium.
+                    <p class="animate__animated animate__fadeInUp">
+                      Are you not quite ready to bring on a business
+                      manager?&nbsp; No problem, I will be your virtual
+                      assistant, taking on tasks to free up your time and
+                      resources so you can do what you do best &ndash; grow your
+                      business.
                     </p>
                     <a
                       href="#featured-services"
@@ -102,17 +99,15 @@ export default function Intro() {
                   backgroundImage: "url(assets/img/intro-carousel/4.jpg)",
                 }}
               >
-                <div className="carousel-container">
+                <div className="carousel-container  mt-5">
                   <div className="container">
-                    <h2 className="animate__animated animate__fadeInDown">
-                      Nam libero tempore
+                    <h2 class="animate__animated animate__fadeInDown">
+                      Professional And Experienced
                     </h2>
-                    <p className="animate__animated animate__fadeInUp">
-                      Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                      amet, consectetur, adipisci velit, sed quia non numquam
-                      eius modi tempora incidunt ut labore et dolore magnam
-                      aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
-                      nostrum.
+                    <p class="animate__animated animate__fadeInUp">
+                      Bringing me on as a Virtual Assistant or Online Business
+                      Manager will give you access to a professional,
+                      experienced team member.
                     </p>
                     <a
                       href="#featured-services"
@@ -130,16 +125,15 @@ export default function Intro() {
                   backgroundImage: "url(assets/img/intro-carousel/5.jpg)",
                 }}
               >
-                <div className="carousel-container">
+                <div className="carousel-container  mt-5">
                   <div className="container">
-                    <h2 className="animate__animated animate__fadeInDown">
-                      Magnam aliquam quaerat
+                    <h2 class="animate__animated animate__fadeInDown">
+                      I Am Always Available
                     </h2>
-                    <p className="animate__animated animate__fadeInUp">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    <p class="animate__animated animate__fadeInUp">
+                      Whether you are in need of a Virtual Assistant or an
+                      Online Business Manager, I can develop a package that fits
+                      your needs, budget and business goals.
                     </p>
                     <a
                       href="#featured-services"

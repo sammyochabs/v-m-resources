@@ -6,7 +6,7 @@ const Testimonials = () => {
     <section id="testimonials" className="section-bg">
       <div className="container" data-aos="fade-up">
         <header className="section-header">
-          <h3>Testimonials</h3>
+          <h3>What My Clients Say About Me</h3>
         </header>
         <div id="myCarousel" className="carousel slide" data-ride="carousel">
           <ol className="carousel-indicators">
@@ -25,19 +25,23 @@ const Testimonials = () => {
                 <div className="col-sm-6">
                   <div className="media">
                     <img
-                      src="https://ui-avatars.com/api/?name=John+Doe&background=0D8ABC&color=fff"
+                      src="https://ui-avatars.com/api/?name=Cfor+Spark&background=0D8ABC&color=fff"
                       className="mr-3"
                       alt=""
                     />
                     <div className="media-body">
                       <div className="testimonial">
                         <p>
-                          Lorem ipsum dolor sit amet, consec adipiscing elit.
-                          Nam eusem scelerisque tempor, varius quam luctus dui.
-                          Mauris magna metus nec.
+                          Working with Katelyn could not have come at a better
+                          time! As my business grew, my time to complete
+                          everything became very limited. Her professionalism
+                          and willingness to help made it easy to transition
+                          tasks to her while coming up with a plan to move the
+                          operations of my business forward. I could not have
+                          asked for a better OBM to join my team
                         </p>
                         <p className="overview">
-                          <b>Paula Wilson</b>, Media Analyst
+                          <b>C4Spark</b>, Business
                         </p>
                       </div>
                     </div>
@@ -46,65 +50,23 @@ const Testimonials = () => {
                 <div className="col-sm-6">
                   <div className="media">
                     <img
-                      src="https://ui-avatars.com/api/?name=John+Doe&background=0D8ABC&color=fff"
+                      src="https://ui-avatars.com/api/?name=Tina+Mc&background=0D8ABC&color=fff"
                       className="mr-3"
                       alt=""
                     />
                     <div className="media-body">
                       <div className="testimonial">
                         <p>
-                          Vestibulum quis quam ut magna consequat faucibus.
-                          Pellentesque eget mi suscipit tincidunt. Utmtc tempus
-                          dictum. Pellentesque virra.
+                          As reluctant as I am to give up control of my business
+                          to someone else, Katelyn made it super easy for me.
+                          Having her as my tech support for my cooking shows has
+                          proven to be priceless. I don't know how I can run my
+                          business without her. Thank you Katelyn for your
+                          patience, punctuality and attention to detail. I'm
+                          looking forward to growing my business with your help.
                         </p>
                         <p className="overview">
-                          <b>Antonio Moreno</b>, Web Developer
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <div className="row">
-                <div className="col-sm-6">
-                  <div className="media">
-                    <img
-                      src="https://ui-avatars.com/api/?name=John+Doe&background=0D8ABC&color=fff"
-                      className="mr-3"
-                      alt=""
-                    />
-                    <div className="media-body">
-                      <div className="testimonial">
-                        <p>
-                          Lorem ipsum dolor sit amet, consec adipiscing elit.
-                          Nam eusem scelerisque tempor, varius quam luctus dui.
-                          Mauris magna metus nec.
-                        </p>
-                        <p className="overview">
-                          <b>Michael Holz</b>, Seo Analyst
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-sm-6">
-                  <div className="media">
-                    <img
-                      src="https://ui-avatars.com/api/?name=John+Doe&background=0D8ABC&color=fff"
-                      className="mr-3"
-                      alt=""
-                    />
-                    <div className="media-body">
-                      <div className="testimonial">
-                        <p>
-                          Vestibulum quis quam ut magna consequat faucibus.
-                          Pellentesque eget mi suscipit tincidunt. Utmtc tempus
-                          dictum. Pellentesque virra.
-                        </p>
-                        <p className="overview">
-                          <b>Mary Saveley</b>, Web Designer
+                          <b>Tina Mcdermott</b>, Business Owner
                         </p>
                       </div>
                     </div>
@@ -117,19 +79,23 @@ const Testimonials = () => {
                 <div className="col-sm-6">
                   <div className="media">
                     <img
-                      src="https://ui-avatars.com/api/?name=John+Doe&background=0D8ABC&color=fff"
+                      src="https://ui-avatars.com/api/?name=Ca+Sp&background=0D8ABC&color=fff"
                       className="mr-3"
                       alt=""
                     />
                     <div className="media-body">
                       <div className="testimonial">
                         <p>
-                          Lorem ipsum dolor sit amet, consec adipiscing elit.
-                          Nam eusem scelerisque tempor, varius quam luctus dui.
-                          Mauris magna metus nec.
+                          Working with Katelyn could not have come at a better
+                          time! As my business grew, my time to complete
+                          everything became very limited. Her professionalism
+                          and willingness to help made it easy to transition
+                          tasks to her while coming up with a plan to move the
+                          operations of my business forward. I could not have
+                          asked for a better OBM to join my team
                         </p>
                         <p className="overview">
-                          <b>Martin Sommer</b>, UX Analyst
+                          <b>C4Spark</b>, Business
                         </p>
                       </div>
                     </div>
@@ -138,19 +104,77 @@ const Testimonials = () => {
                 <div className="col-sm-6">
                   <div className="media">
                     <img
-                      src="https://ui-avatars.com/api/?name=John+Doe&background=0D8ABC&color=fff"
+                      src="https://ui-avatars.com/api/?name=Tina+Mc&background=0D8ABC&color=fff"
                       className="mr-3"
                       alt=""
                     />
                     <div className="media-body">
                       <div className="testimonial">
                         <p>
-                          Vestibulum quis quam ut magna consequat faucibus.
-                          Pellentesque eget mi suscipit tincidunt. Utmtc tempus
-                          dictum. Pellentesque virra.
+                          As reluctant as I am to give up control of my business
+                          to someone else, Katelyn made it super easy for me.
+                          Having her as my tech support for my cooking shows has
+                          proven to be priceless. I don't know how I can run my
+                          business without her. Thank you Katelyn for your
+                          patience, punctuality and attention to detail. I'm
+                          looking forward to growing my business with your help.
                         </p>
                         <p className="overview">
-                          <b>John Williams</b>, Web Developer
+                          <b>Tina Mcdermott</b>, Business Owner
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="carousel-item">
+              <div className="row">
+                <div className="col-sm-6">
+                  <div className="media">
+                    <img
+                      src="https://ui-avatars.com/api/?name=Tina+McDermott&background=0D8ABC&color=fff"
+                      className="mr-3"
+                      alt=""
+                    />
+                    <div className="media-body">
+                      <div className="testimonial">
+                        <p>
+                          As reluctant as I am to give up control of my business
+                          to someone else, Katelyn made it super easy for me.
+                          Having her as my tech support for my cooking shows has
+                          proven to be priceless. I don't know how I can run my
+                          business without her. Thank you Katelyn for your
+                          patience, punctuality and attention to detail. I'm
+                          looking forward to growing my business with your help.
+                        </p>
+                        <p className="overview">
+                          <b>Tina Mcdermott</b>, Business Owner
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-sm-6">
+                  <div className="media">
+                    <img
+                      src="https://ui-avatars.com/api/?name=cohn+soe&background=0D8ABC&color=fff"
+                      className="mr-3"
+                      alt=""
+                    />
+                    <div className="media-body">
+                      <div className="testimonial">
+                        <p>
+                          Working with Katelyn could not have come at a better
+                          time! As my business grew, my time to complete
+                          everything became very limited. Her professionalism
+                          and willingness to help made it easy to transition
+                          tasks to her while coming up with a plan to move the
+                          operations of my business forward. I could not have
+                          asked for a better OBM to join my team
+                        </p>
+                        <p className="overview">
+                          <b>C4Spark</b>, Business
                         </p>
                       </div>
                     </div>

@@ -5,8 +5,8 @@ const Contact = () => {
         <div className="section-header">
           <h3>Contact Us</h3>
           <p>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque
+            Get in touch with us so we can discuss how we can help you achieve
+            your current and future goals.
           </p>
         </div>
 
@@ -15,7 +15,7 @@ const Contact = () => {
             <div className="contact-address">
               <i className="ion-ios-location-outline"></i>
               <h3>Address</h3>
-              <address>A108 Adam Street, NY 535022, USA</address>
+              <address>Denver, C O</address>
             </div>
           </div>
 
@@ -24,7 +24,7 @@ const Contact = () => {
               <i className="ion-ios-telephone-outline"></i>
               <h3>Phone Number</h3>
               <p>
-                <a href="tel:+155895548855">+1 5589 55488 55</a>
+                <a href="tel:+155895548855"> (303) 519-8232</a>
               </p>
             </div>
           </div>
@@ -34,7 +34,10 @@ const Contact = () => {
               <i className="ion-ios-email-outline"></i>
               <h3>Email</h3>
               <p>
-                <a href="mailto:info@example.com">info@example.com</a>
+                <a href="mailto:info@example.com">
+                  {" "}
+                  VirtualMgmtResources@gmail.com
+                </a>
               </p>
             </div>
           </div>

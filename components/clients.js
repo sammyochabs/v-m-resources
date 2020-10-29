@@ -1,7 +1,7 @@
 const Clients = () => {
   return (
     <section id="clients">
-      <div className="container" data-aos="zoom-in">
+      <div className="container-fluid" data-aos="zoom-in">
         <header className="section-header">
           <h3>Our Clients</h3>
         </header>
@@ -12,22 +12,22 @@ const Clients = () => {
             <li data-target="#demo" data-slide-to="1"></li>
           </ul>
 
-          <div className="carousel-inner">
+          <div className="carousel-inner  ">
             <div className="carousel-item active">
               <div className="d-flex justify-content-around">
-                <img src="assets/img/clients/client-1.png" alt="" />
-                <img src="assets/img/clients/client-2.png" alt="" />
-                <img src="assets/img/clients/client-3.png" alt="" />
-                <img src="assets/img/clients/client-4.png" alt="" />
+                <img src="client-1.png" alt="" />
+                <img src="client-2.jpg" alt="" />
+                <img src="client-3.png" alt="" />
+                <img src="client-4.jpg" alt="" />
               </div>
             </div>
 
             <div className="carousel-item">
               <div className="d-flex justify-content-around">
-                <img src="assets/img/clients/client-5.png" alt="" />
-                <img src="assets/img/clients/client-6.png" alt="" />
-                <img src="assets/img/clients/client-7.png" alt="" />
-                <img src="assets/img/clients/client-8.png" alt="" />
+                <img src="client-2.jpg" alt="" />
+                <img src="client-4.jpg" alt="" />
+                <img src="client-1.png" alt="" />
+                <img src="client-3.png" alt="" />
               </div>
             </div>
           </div>

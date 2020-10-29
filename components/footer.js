@@ -5,12 +5,10 @@ const Footer = () => {
         <div className="container">
           <div className="row   d-flex  justify-content-between">
             <div className="col-lg-3 col-md-6 footer-info">
-              <h3>BizPage</h3>
+              <h3>Virtual Management Resources</h3>
               <p>
-                Cras fermentum odio eu feugiat lide par naso tierra. Justo eget
-                nada terra videa magna derita valies darta donna mare fermentum
-                iaculis eu non diam phasellus. Scelerisque felis imperdiet proin
-                fermentum leo. Amet volutpat consequat mauris nunc congue.
+                Virtual Management Resources is here to support your unique
+                business challenges - no matter what stage your business is in.
               </p>
             </div>
 
@@ -18,54 +16,59 @@ const Footer = () => {
               <h4>Useful Links</h4>
               <ul>
                 <li>
-                  <i className="ion-ios-arrow-right"></i> <a href="#">Home</a>
+                  <i className="ion-ios-arrow-right"></i>{" "}
+                  <a href="#intro">Home</a>
                 </li>
                 <li>
                   <i className="ion-ios-arrow-right"></i>{" "}
-                  <a href="#">About us</a>
+                  <a href="#about">About us</a>
                 </li>
                 <li>
                   <i className="ion-ios-arrow-right"></i>{" "}
-                  <a href="#">Services</a>
+                  <a href="#services">Services</a>
                 </li>
-                <li>
+                {/* <li>
                   <i className="ion-ios-arrow-right"></i>{" "}
                   <a href="#">Terms of service</a>
                 </li>
                 <li>
                   <i className="ion-ios-arrow-right"></i>{" "}
                   <a href="#">Privacy policy</a>
-                </li>
+                </li> */}
               </ul>
             </div>
 
             <div className="col-lg-3 col-md-6 footer-contact">
               <h4>Contact Us</h4>
               <p>
-                A108 Adam Street <br />
-                New York, NY 535022
-                <br />
+                Denver, C O <br />
                 United States <br />
-                <strong>Phone:</strong> +1 5589 55488 55
+                <strong>Phone:</strong> (303) 519-8232
                 <br />
-                <strong>Email:</strong> info@example.com
+                <strong>Email:</strong> VirtualMgmtResources@gmail.com
                 <br />
               </p>
 
               <div className="social-links">
-                <a href="#" className="twitter">
+                {/* <a href="#" className="twitter">
                   <i className="fa fa-twitter"></i>
-                </a>
-                <a href="#" className="facebook">
+                </a> */}
+                <a
+                  href="https://www.facebook.com/VirtualManagementResources/"
+                  className="facebook"
+                >
                   <i className="fa fa-facebook"></i>
                 </a>
-                <a href="#" className="instagram">
+                {/* <a href="#" className="instagram">
                   <i className="fa fa-instagram"></i>
-                </a>
-                <a href="#" className="google-plus">
+                </a> */}
+                {/* <a href="#" className="google-plus">
                   <i className="fa fa-google-plus"></i>
-                </a>
-                <a href="#" className="linkedin">
+                </a> */}
+                <a
+                  href="https://www.linkedin.com/in/katelyn-banman-b3ba1b7/"
+                  className="linkedin"
+                >
                   <i className="fa fa-linkedin"></i>
                 </a>
               </div>

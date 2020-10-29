@@ -9,7 +9,7 @@ export default function Navbar(props) {
           <div className="row justify-content-center">
             <div className="col-xl-11 d-flex align-items-center">
               <h1 className="logo mr-auto">
-                <a href="index.html">Virtual Management Resourses</a>
+                <a href="index.html">Virtual Management Resources</a>
               </h1>
 
               <a href="index.html" className="logo mr-auto">
@@ -19,7 +19,7 @@ export default function Navbar(props) {
               <nav className="nav-menu d-none d-lg-block">
                 <ul>
                   <li className="active">
-                    <a href="index.html">Home</a>
+                    <a href="#intro">Home</a>
                   </li>
                   <li>
                     <a href="#about">About Us</a>
@@ -27,29 +27,11 @@ export default function Navbar(props) {
                   <li>
                     <a href="#services">Services</a>
                   </li>
+
                   <li>
-                    <a href="#portfolio">Portfolio</a>
+                    <a href="#team">About Me</a>
                   </li>
-                  <li>
-                    <a href="#team">Team</a>
-                  </li>
-                  <li className="drop-down">
-                    <a href="">Drop Down</a>
-                    <ul>
-                      <li>
-                        <a href="#">Drop Down 1</a>
-                      </li>
-                      <li>
-                        <a href="#">Drop Down 3</a>
-                      </li>
-                      <li>
-                        <a href="#">Drop Down 4</a>
-                      </li>
-                      <li>
-                        <a href="#">Drop Down 5</a>
-                      </li>
-                    </ul>
-                  </li>
+
                   <li>
                     <a href="#contact">Contact Us</a>
                   </li>
