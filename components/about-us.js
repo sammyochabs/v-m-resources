@@ -6,7 +6,7 @@ export default function AboutUs() {
       <section id="about">
         <div className="container" data-aos="fade-up">
           <header className="section-header">
-            <h3>Virtual Management Resourses</h3>
+            <h3>Virtual Management Resources</h3>
             <p>
               Virtual Management Resources is here to support your unique
               business challenges - no matter what stage your business is in.

@@ -33,6 +33,10 @@ export default function Navbar(props) {
                   </li>
 
                   <li>
+                    <a href="#faq">F.A.Q</a>
+                  </li>
+
+                  <li>
                     <a href="#contact">Contact Us</a>
                   </li>
                 </ul>

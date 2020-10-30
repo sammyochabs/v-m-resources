@@ -15,7 +15,7 @@ const Contact = () => {
             <div className="contact-address">
               <i className="ion-ios-location-outline"></i>
               <h3>Address</h3>
-              <address>Denver, C O</address>
+              <address>Denver, CO</address>
             </div>
           </div>
 

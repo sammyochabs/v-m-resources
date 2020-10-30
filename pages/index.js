@@ -13,6 +13,7 @@ import AboutMe from "../components/about-me";
 import Contact from "../components/contact";
 import Footer from "../components/footer";
 import FAQ from "../components/faq";
+import TabbedServices from "../components/tabbed-services";
 
 export default function Home() {
   return (
@@ -74,7 +75,7 @@ export default function Home() {
         <main>
           <FeaturedServices />
           <AboutUs />
-          <Services />
+          <TabbedServices />
           <CallToAction />
           <Clients />
           <Testimonials />

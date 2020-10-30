@@ -34,16 +34,15 @@ export default function FeaturedServices() {
             </div>
 
             <div class="col-lg-4 box">
-              <i class="fas fa-headset"></i>
+              <i class="fas fa-tasks"></i>
               <h4 class="title">
-                <a href="">CRM Management</a>
+                <a href="">Operational Management</a>
               </h4>
               <p class="description">
-                We can learn any customer relationship data base you currently
-                use and manage your customer relationships and interactions as
-                if you were answering them yourself. Professional, informative
-                and timely. These relationships are what a business is built off
-                of so let us create that personal touch.
+                This is all things operational in your business. From systems
+                that are used or needed, to creating or improving processes on
+                your day to days. I am here to streamline your operational
+                procedures to make you and your employee’s life more simplistic.
               </p>
             </div>
           </div>

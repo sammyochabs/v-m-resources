@@ -77,8 +77,8 @@ export default function Intro() {
                       Virtual Assistant
                     </h2>
                     <p class="animate__animated animate__fadeInUp">
-                      Are you not quite ready to bring on a business
-                      manager?&nbsp; No problem, I will be your virtual
+                      Are you not quite ready to bring on a Business
+                      Manager?&nbsp; No problem, I will be your virtual
                       assistant, taking on tasks to free up your time and
                       resources so you can do what you do best &ndash; grow your
                       business.

@@ -41,7 +41,7 @@ const Footer = () => {
             <div className="col-lg-3 col-md-6 footer-contact">
               <h4>Contact Us</h4>
               <p>
-                Denver, C O <br />
+                Denver, CO <br />
                 United States <br />
                 <strong>Phone:</strong> (303) 519-8232
                 <br />
