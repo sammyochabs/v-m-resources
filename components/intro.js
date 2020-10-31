@@ -30,7 +30,7 @@ export default function Intro() {
                       business is in.
                     </p>
                     <a
-                      href="#featured-services"
+                      href="#contact"
                       className="btn-get-started scrollto animate__animated animate__fadeInUp"
                     >
                       Get Started
@@ -56,7 +56,7 @@ export default function Intro() {
                       established companies continue to grow.
                     </p>
                     <a
-                      href="#featured-services"
+                      href="#contact"
                       className="btn-get-started scrollto animate__animated animate__fadeInUp"
                     >
                       Get Started
@@ -84,7 +84,7 @@ export default function Intro() {
                       business.
                     </p>
                     <a
-                      href="#featured-services"
+                      href="#contact"
                       className="btn-get-started scrollto animate__animated animate__fadeInUp"
                     >
                       Get Started
@@ -110,8 +110,8 @@ export default function Intro() {
                       experienced team member.
                     </p>
                     <a
-                      href="#featured-services"
-                      className="btn-get-started scrollto animate__animated animate__fadeInUp"
+                      href="#contact"
+                      className="btn-get-started  bg-success scrollto animate__animated animate__fadeInUp"
                     >
                       Get Started
                     </a>
@@ -136,7 +136,7 @@ export default function Intro() {
                       your needs, budget and business goals.
                     </p>
                     <a
-                      href="#featured-services"
+                      href="#contact"
                       className="btn-get-started scrollto animate__animated animate__fadeInUp"
                     >
                       Get Started

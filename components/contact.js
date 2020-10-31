@@ -5,10 +5,26 @@ const Contact = () => {
         <div className="section-header">
           <h3>Contact Us</h3>
           <p>
-            Get in touch with us so we can discuss how we can help you achieve
-            your current and future goals.
+            <div className="text-center mb-5  mt-5">
+              <a href="https://WorkwithVMR.as.me/" target="_blank">
+                <button
+                  style={{
+                    background: "#18d26e",
+                    border: 0,
+                    padding: "10px 30px",
+                    color: "#fff",
+                    transition: "0.4s",
+                    cursor: "pointer",
+                  }}
+                  className=""
+                >
+                  SCHEDULE A TIME TO CHAT
+                </button>
+              </a>
+            </div>
           </p>
         </div>
+        <hr className="my-5" />
 
         <div className="row contact-info">
           <div className="col-md-4">

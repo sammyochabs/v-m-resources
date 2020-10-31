@@ -14,6 +14,7 @@ import Contact from "../components/contact";
 import Footer from "../components/footer";
 import FAQ from "../components/faq";
 import TabbedServices from "../components/tabbed-services";
+import Schedule from "../components/shedule";
 
 export default function Home() {
   return (
