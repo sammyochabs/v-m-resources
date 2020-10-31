@@ -20,7 +20,7 @@ const FAQ = () => {
                 <i className="bx bx-chevron-up icon-close"></i>
               </a>
               <div
-                className="collapse show"
+                className="collapse "
                 id="faq-list-1"
                 data-parent=".faq-list"
               >
