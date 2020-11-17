@@ -9,6 +9,7 @@ const AddPost = () => {
   let [blogPostTitle, setBlogPostTitle] = useState("");
   const [message, setMessage] = useState();
   const [editorContent, setEditorContent] = useState();
+  const [currentView, setCurrentView] = useState("Add");
 
   const handleContentChange = (content) => {
     setEditorContent(content);
@@ -46,6 +47,7 @@ const AddPost = () => {
     setEditorContent("");
     setBlogPostTitle("");
   }
+
   return (
     <div>
       <Head>
