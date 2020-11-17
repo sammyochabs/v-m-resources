@@ -2,9 +2,18 @@ import Head from "next/head";
 import React, { useEffect, useState } from "react";
 
 export default function Navbar(props) {
+  let transClass = "header-transparent";
+  let fixedClass = "fixed-top";
+  if (props.bg === "no-trans") {
+    transClass = "";
+  }
+  if (props.fixed === "not-fix") {
+    fixedClass = "";
+  }
+
   return (
     <div>
-      <header id="header" className="fixed-top header-transparent">
+      <header id="header" className={`${fixedClass} ${transClass}`}>
         <div className="container-fluid">
           <div className="row justify-content-center">
             <div className="col-xl-11 d-flex align-items-center">
@@ -34,6 +43,10 @@ export default function Navbar(props) {
 
                   <li>
                     <a href="#faq">F.A.Q</a>
+                  </li>
+
+                  <li>
+                    <a href="/blog">BLOG</a>
                   </li>
 
                   <li>

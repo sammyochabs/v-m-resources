@@ -27,7 +27,7 @@ export default function AboutUs() {
                     <i className="ion-ios-speedometer-outline"></i>
                   </div>
                 </div>
-                <h2 class="title">
+                <h2 className="title">
                   <a href="#">Online Business Management</a>
                 </h2>
                 <p>
@@ -47,7 +47,7 @@ export default function AboutUs() {
                     <i className="ion-ios-list-outline"></i>
                   </div>
                 </div>
-                <h2 class="title">
+                <h2 className="title">
                   <a href="#">Virtual Assistance</a>
                 </h2>
                 <p>

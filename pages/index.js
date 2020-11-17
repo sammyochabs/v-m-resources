@@ -3,9 +3,7 @@ import FeaturedServices from "../components/featured-sevices";
 import Intro from "../components/intro";
 import Navbar from "../components/navbar";
 import AboutUs from "../components/about-us";
-
 import styles from "../styles/Home.module.css";
-import Services from "../components/services";
 import CallToAction from "../components/call-to-action";
 import Clients from "../components/clients";
 import Testimonials from "../components/testimonials";
@@ -14,7 +12,6 @@ import Contact from "../components/contact";
 import Footer from "../components/footer";
 import FAQ from "../components/faq";
 import TabbedServices from "../components/tabbed-services";
-import Schedule from "../components/shedule";
 
 export default function Home() {
   return (
@@ -71,7 +68,7 @@ export default function Home() {
         ></link>
       </Head>
       <div>
-        <Navbar />
+        <Navbar bg="trans" />
         <Intro />
         <main>
           <FeaturedServices />

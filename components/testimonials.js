@@ -25,7 +25,7 @@ const Testimonials = () => {
                 <div className="col-sm-6">
                   <div className="media">
                     <img
-                      src="https://ui-avatars.com/api/?name=Cfor+Spark&background=0D8ABC&color=fff"
+                      src="https://ui-avatars.com/api/?name=Cfor+Spark&background=18D26E&color=fff"
                       className="mr-3"
                       alt=""
                     />
@@ -41,7 +41,14 @@ const Testimonials = () => {
                           asked for a better OBM to join my team
                         </p>
                         <p className="overview">
-                          <b>C4Spark</b>, Business
+                          <b
+                            style={{
+                              color: "#18D26E",
+                            }}
+                          >
+                            C4Spark
+                          </b>
+                          , Business
                         </p>
                       </div>
                     </div>
@@ -50,7 +57,7 @@ const Testimonials = () => {
                 <div className="col-sm-6">
                   <div className="media">
                     <img
-                      src="https://ui-avatars.com/api/?name=Tina+Mc&background=0D8ABC&color=fff"
+                      src="https://ui-avatars.com/api/?name=Tina+Mc&background=18D26E&color=fff"
                       className="mr-3"
                       alt=""
                     />
@@ -66,7 +73,14 @@ const Testimonials = () => {
                           looking forward to growing my business with your help.
                         </p>
                         <p className="overview">
-                          <b>Tina Mcdermott</b>, Business Owner
+                          <b
+                            style={{
+                              color: "#18D26E",
+                            }}
+                          >
+                            Tina Mcdermott
+                          </b>
+                          , Business Owner
                         </p>
                       </div>
                     </div>
@@ -79,7 +93,7 @@ const Testimonials = () => {
                 <div className="col-sm-6">
                   <div className="media">
                     <img
-                      src="https://ui-avatars.com/api/?name=Ca+Sp&background=0D8ABC&color=fff"
+                      src="https://ui-avatars.com/api/?name=Ca+Sp&background=18D26E&color=fff"
                       className="mr-3"
                       alt=""
                     />
@@ -95,7 +109,14 @@ const Testimonials = () => {
                           asked for a better OBM to join my team
                         </p>
                         <p className="overview">
-                          <b>C4Spark</b>, Business
+                          <b
+                            style={{
+                              color: "#18D26E",
+                            }}
+                          >
+                            C4Spark
+                          </b>
+                          , Business
                         </p>
                       </div>
                     </div>
@@ -104,7 +125,7 @@ const Testimonials = () => {
                 <div className="col-sm-6">
                   <div className="media">
                     <img
-                      src="https://ui-avatars.com/api/?name=Tina+Mc&background=0D8ABC&color=fff"
+                      src="https://ui-avatars.com/api/?name=Tina+Mc&background=18D26E&color=fff"
                       className="mr-3"
                       alt=""
                     />
@@ -120,7 +141,14 @@ const Testimonials = () => {
                           looking forward to growing my business with your help.
                         </p>
                         <p className="overview">
-                          <b>Tina Mcdermott</b>, Business Owner
+                          <b
+                            style={{
+                              color: "#18D26E",
+                            }}
+                          >
+                            Tina Mcdermott
+                          </b>
+                          , Business Owner
                         </p>
                       </div>
                     </div>
@@ -133,7 +161,7 @@ const Testimonials = () => {
                 <div className="col-sm-6">
                   <div className="media">
                     <img
-                      src="https://ui-avatars.com/api/?name=Tina+McDermott&background=0D8ABC&color=fff"
+                      src="https://ui-avatars.com/api/?name=Tina+McDermott&background=18D26E&color=fff"
                       className="mr-3"
                       alt=""
                     />
@@ -149,7 +177,14 @@ const Testimonials = () => {
                           looking forward to growing my business with your help.
                         </p>
                         <p className="overview">
-                          <b>Tina Mcdermott</b>, Business Owner
+                          <b
+                            style={{
+                              color: "#18D26E",
+                            }}
+                          >
+                            Tina Mcdermott
+                          </b>
+                          , Business Owner
                         </p>
                       </div>
                     </div>
@@ -158,7 +193,7 @@ const Testimonials = () => {
                 <div className="col-sm-6">
                   <div className="media">
                     <img
-                      src="https://ui-avatars.com/api/?name=cohn+soe&background=0D8ABC&color=fff"
+                      src="https://ui-avatars.com/api/?name=cohn+soe&background=18D26E&color=fff"
                       className="mr-3"
                       alt=""
                     />
@@ -174,7 +209,14 @@ const Testimonials = () => {
                           asked for a better OBM to join my team
                         </p>
                         <p className="overview">
-                          <b>C4Spark</b>, Business
+                          <b
+                            style={{
+                              color: "#18D26E",
+                            }}
+                          >
+                            C4Spark
+                          </b>
+                          , Business
                         </p>
                       </div>
                     </div>

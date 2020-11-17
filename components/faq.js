@@ -16,7 +16,7 @@ const FAQ = () => {
             <li data-aos="fade-up">
               <i className="bx bx-help-circle icon-help"></i>
               <a className="collapse" data-toggle="collapse" href="#faq-list-1">
-                Who is an OBM? <i className="bx bx-chevron-down icon-show"></i>
+                What is an OBM? <i className="bx bx-chevron-down icon-show"></i>
                 <i className="bx bx-chevron-up icon-close"></i>
               </a>
               <div
@@ -74,7 +74,7 @@ const FAQ = () => {
                 data-toggle="collapse"
                 href="#faq-list-2"
               >
-                Who is a VA? <i className="bx bx-chevron-down icon-show"></i>
+                What is a VA? <i className="bx bx-chevron-down icon-show"></i>
                 <i className="bx bx-chevron-up icon-close"></i>
               </a>
               <div className="collapse" id="faq-list-2" data-parent=".faq-list">

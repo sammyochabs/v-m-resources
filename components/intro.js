@@ -96,7 +96,7 @@ export default function Intro() {
               <div
                 className="carousel-item"
                 style={{
-                  backgroundImage: "url(assets/img/intro-carousel/4.jpg)",
+                  backgroundImage: "url(intro-4.jpg)",
                 }}
               >
                 <div className="carousel-container  mt-5">
@@ -122,7 +122,7 @@ export default function Intro() {
               <div
                 className="carousel-item"
                 style={{
-                  backgroundImage: "url(assets/img/intro-carousel/5.jpg)",
+                  backgroundImage: "url(desk.jpg)",
                 }}
               >
                 <div className="carousel-container  mt-5">
