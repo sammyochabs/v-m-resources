@@ -500,6 +500,7 @@ const AddPost = ({ posts }) => {
                                       setPostsArray(
                                         arrayUpdater(postsArray, index)
                                       );
+                                      window.location.reload();
                                     }
                                   }}
                                   href=""
