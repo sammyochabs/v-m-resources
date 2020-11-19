@@ -24,5 +24,14 @@ export default async function (req, res) {
     } catch (err) {
       res.status(400).json({ err: err });
     }
+  } else if (method === "DELETE") {
+    try {
+      let deletedPost = await blogPostModel.deleteOne({
+        title: req.body.title,
+      });
+      res.status(200).json({ message: deletedPost.n });
+    } catch (err) {
+      res.status(401).json({ err: err });
+    }
   }
 }

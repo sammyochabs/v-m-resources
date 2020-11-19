@@ -1,6 +1,6 @@
 const AboutMe = () => {
   return (
-    <section id="about-me">
+    <section id="team">
       <div className="container" data-aos="fade-up">
         <div className="section-header">
           <h3>About Me</h3>

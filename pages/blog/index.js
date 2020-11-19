@@ -67,7 +67,7 @@ const Blog = ({ posts }) => {
                   <div id="menu" className="collapse">
                     <ul className="menu-link">
                       <li>
-                        <a href="/#about-me">About</a>
+                        <a href="/#team">About</a>
                       </li>
                       <li>
                         <a href="/#services">Services</a>
