@@ -452,11 +452,9 @@ const AddPost = ({ posts }) => {
                     <table className="table table-striped table-hover table-bordered">
                       <thead>
                         <tr>
-                          <th>#</th>
-                          <th>
-                            Name <i className="fa fa-sort"></i>
-                          </th>
-                          <th>Address</th>
+                          <th>Date</th>
+                          <th>Post Title</th>
+                          <th>Author</th>
                           {/* <th>
                             City <i className="fa fa-sort"></i>
                           </th>
@@ -464,14 +462,14 @@ const AddPost = ({ posts }) => {
                           <th>
                             Country <i className="fa fa-sort"></i>
                           </th> */}
-                          <th>Actions</th>
+                          <th>Action</th>
                         </tr>
                       </thead>
                       <tbody>
                         {postsArray.map((post, index, array) => {
                           return (
                             <tr>
-                              <td>{index + 1}</td>
+                              <td>{post.date || "Thursday Nov 9 2020"}</td>
                               <td>{post.title}</td>
                               <td>{post.author || "Katelyn Banman"}</td>
                               {/* <td>Portland</td>
