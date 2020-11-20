@@ -171,7 +171,7 @@ const SinglePost = ({ post }) => {
                     <div className="row">
                       <div className="sub-title">
                         <a href="/blog" title="Go to Home Page">
-                          <h2>Back Home</h2>
+                          <h2>Go Back</h2>
                         </a>
                         {/* <a href="#comment" className="smoth-scroll">
                           <i className="icon-bubbles"></i>
@@ -188,7 +188,7 @@ const SinglePost = ({ post }) => {
                             <span>
                               {new Date(post[0].date).toDateString()} {"By "}
                               <a href="#" target="_blank">
-                                Alex Parker
+                                Katelyn Banman
                               </a>
                             </span>
                           </div>
