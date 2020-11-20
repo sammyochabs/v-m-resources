@@ -210,11 +210,19 @@ const AddPost = ({ posts, noAuth }) => {
 
                 <div className="container-fluid">
                   {message && message.message === "success" ? (
-                    <div className="alert alert-success" role="alert">
+                    <div
+                      aria-label="alert"
+                      className="alert alert-success"
+                      role="alert"
+                    >
                       BlogPost Successfully Addedd!!!
                     </div>
                   ) : message && message.message !== "success" ? (
-                    <div className="alert alert-danger" role="alert">
+                    <div
+                      aria-label="alert"
+                      className="alert alert-danger"
+                      role="alert"
+                    >
                       Something Went wrong please try again
                     </div>
                   ) : (
@@ -235,6 +243,7 @@ const AddPost = ({ posts, noAuth }) => {
                           Enter The Title Of The Post
                         </label>
                         <input
+                          name="post-title"
                           onChange={handleTitleChange}
                           value={blogPostTitle}
                           type="text"
@@ -433,16 +442,6 @@ const AddPost = ({ posts, noAuth }) => {
                           <div className="col-sm-8">
                             <h2>Blog Posts</h2>
                           </div>
-                          <div className="col-sm-4">
-                            <div className="search-box">
-                              <i className="material-icons">&#xE8B6;</i>
-                              <input
-                                type="text"
-                                className="form-control"
-                                placeholder="Search&hellip;"
-                              />
-                            </div>
-                          </div>
                         </div>
                       </div>
                       <table className="table table-striped table-hover table-bordered">
@@ -464,7 +463,7 @@ const AddPost = ({ posts, noAuth }) => {
                         <tbody>
                           {postsArray.map((post, index, array) => {
                             return (
-                              <tr>
+                              <tr key={index}>
                                 <td>{new Date(post.date).toDateString()}</td>
                                 <td>{post.title}</td>
                                 <td>{post.author || "Katelyn Banman"}</td>
@@ -780,11 +779,19 @@ const AddPost = ({ posts, noAuth }) => {
 
                 <div className="container-fluid">
                   {message && message.message === "success" ? (
-                    <div className="alert alert-success" role="alert">
+                    <div
+                      aria-label="alert"
+                      className="alert alert-success"
+                      role="alert"
+                    >
                       BlogPost Successfully Addedd!!!
                     </div>
                   ) : message && message.message !== "success" ? (
-                    <div className="alert alert-danger" role="alert">
+                    <div
+                      aria-label="alert"
+                      className="alert alert-danger"
+                      role="alert"
+                    >
                       Something Went wrong please try again
                     </div>
                   ) : (
@@ -805,6 +812,7 @@ const AddPost = ({ posts, noAuth }) => {
                           Enter The Title Of The Post
                         </label>
                         <input
+                          name="post-title"
                           onChange={handleTitleChange}
                           value={blogPostTitle}
                           type="text"

@@ -16,12 +16,14 @@ const TabbedServices = () => {
 
       <div className="px-3 rounded">
         <ul
+          aria-label="tab-2"
           id="myTab2"
           role="tablist"
           className="nav nav-tabs nav-pills with-arrow lined flex-column flex-sm-row text-center"
         >
           <li className="nav-item flex-sm-fill">
             <a
+              aria-label="home-tab-2"
               id="home2-tab"
               data-toggle="tab"
               href="#home2"
@@ -35,6 +37,7 @@ const TabbedServices = () => {
           </li>
           <li className="nav-item flex-sm-fill">
             <a
+              aria-label="profile-tab"
               id="profile2-tab"
               data-toggle="tab"
               href="#profile2"
@@ -62,6 +65,7 @@ const TabbedServices = () => {
         </ul>
         <div id="myTab2Content" className="tab-content">
           <div
+            aria-label="tab-panel"
             id="home2"
             role="tabpanel"
             aria-labelledby="home-tab"
@@ -257,6 +261,7 @@ const TabbedServices = () => {
             </div>
           </div>
           <div
+            aria-label="tab-panel"
             id="profile2"
             role="tabpanel"
             aria-labelledby="profile-tab"

@@ -42,6 +42,11 @@ const Blog = ({ posts }) => {
         <script type="text/javascript" src="/devblog/js/scripts.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/js/uikit.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/js/uikit-icons.min.js"></script>
+        <meta
+          name="description"
+          content="Online Business manager And Virtual Assistant To Businesses From the sole entrepreneurial startup in need of a Virtual Assistant, to the established, multi-team business looking take their organization to the next level with an Online Business Manager"
+        ></meta>
+        <title>Online Business Manager And Virtual Assistant Services</title>
       </Head>
       <BlogNav />
 
@@ -130,9 +135,9 @@ const Blog = ({ posts }) => {
                   </div>
 
                   <div className="col-md-12 content-page">
-                    {posts.map((post) => {
+                    {posts.map((post, index) => {
                       return (
-                        <div className="col-md-12 blog-post">
+                        <div key={index} className="col-md-12 blog-post">
                           <div className="post-title">
                             <a href={`/blog/posts/${post.title}`}>
                               <h1>{post.title}</h1>

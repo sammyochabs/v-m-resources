@@ -66,6 +66,11 @@ export default function Home() {
           href="assetsM/vendor/boxicons/css/boxicons.min.css"
           rel="stylesheet"
         ></link>
+        <meta
+          name="description"
+          content="Online Business manager And Virtual Assistant To Businesses From the sole entrepreneurial startup in need of a Virtual Assistant, to the established, multi-team business looking take their organization to the next level with an Online Business Manager"
+        ></meta>
+        <title>Online Business Manager And Virtual Assistant Services</title>
       </Head>
       <div>
         <Navbar bg="trans" />

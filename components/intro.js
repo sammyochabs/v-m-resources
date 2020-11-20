@@ -12,12 +12,14 @@ export default function Intro() {
           >
             <ol className="carousel-indicators"></ol>
 
-            <div className="carousel-inner" role="listbox">
+            <div aria-label="intro" className="carousel-inner" role="listbox">
               <div
+                aria-label="intro"
                 className="carousel-item active"
                 style={{
                   backgroundImage: "url(intro-1.jpg)",
                 }}
+                role="listbox"
               >
                 <div className="carousel-container my-5">
                   <div className="container">
@@ -147,6 +149,7 @@ export default function Intro() {
             </div>
 
             <a
+              aria-label="get-started"
               className="carousel-control-prev"
               href="#introCarousel"
               role="button"
@@ -160,6 +163,7 @@ export default function Intro() {
             </a>
 
             <a
+              aria-label="next"
               className="carousel-control-next"
               href="#introCarousel"
               role="button"
