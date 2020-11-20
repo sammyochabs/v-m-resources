@@ -253,7 +253,7 @@ const Blog = ({ posts }) => {
 
 export default Blog;
 
-export async function getStaticProps(context) {
+export async function getServerSideProps(context) {
   let networkErr;
   let posts;
   try {

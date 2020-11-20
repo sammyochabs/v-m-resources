@@ -33,7 +33,7 @@ const FAQ = () => {
                   what is really needed for YOU and YOUR BUSINESS. Once the
                   backend of your business is taken care of, you can start to
                   really concentrate on your business again. New products,
-                  growth and expansion, more work life balance &mldr;&mldr;the
+                  growth and expansion, more work life balance ....the
                   possibilities are endless!!
                   <ol>
                     <li>
