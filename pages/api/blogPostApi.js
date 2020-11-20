@@ -11,6 +11,7 @@ export default async function (req, res) {
   }
 
   if (method === "POST") {
+    console.log(req.body);
     try {
       let newBlogPost = await blogPostModel.create(req.body);
       res.status(200).json({ message: "success" });

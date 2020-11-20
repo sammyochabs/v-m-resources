@@ -186,7 +186,7 @@ const SinglePost = ({ post }) => {
                           {ReactHtmlParser(post[0].content)}
                           <div className="post-info">
                             <span>
-                              November 23, 2016 / by{" "}
+                              {new Date(post[0].date).toDateString()} {"By "}
                               <a href="#" target="_blank">
                                 Alex Parker
                               </a>
@@ -228,7 +228,7 @@ const SinglePost = ({ post }) => {
                             </div>
                           </div>
 
-                          <div className="you-may-also-like margin-top-50 margin-bottom-50">
+                          {/* <div className="you-may-also-like margin-top-50 margin-bottom-50">
                             <h3>You may also like</h3>
                             <div className="row">
                               <div className="col-md-4 col-sm-6 col-xs-12">
@@ -252,7 +252,7 @@ const SinglePost = ({ post }) => {
                                 </a>
                               </div>
                             </div>
-                          </div>
+                          </div> */}
                         </div>
                       </div>
                     </div>

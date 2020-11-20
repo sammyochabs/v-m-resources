@@ -140,7 +140,7 @@ const Blog = ({ posts }) => {
                           </div>
                           <div className="post-info">
                             <span>
-                              November 23, 2016 / by{" "}
+                              {new Date(post.date).toDateString()} {"By "}
                               <a
                                 href="https://www.linkedin.com/in/katelyn-banman-b3ba1b7/"
                                 target="_blank"
