@@ -648,14 +648,17 @@ export default AddPost;
 
 export async function getServerSideProps(context) {
   let authCookie;
-  let cookies = context.req.headers.cookie.split(";");
-  // console.log(cookies);
+  let cookies;
+  if (context.req.headers.cookie) {
+    cookies = context.req.headers.cookie.split(";");
+    cookies.forEach((cookie) => {
+      if (/adminAuth/.test(cookie)) {
+        authCookie = cookie;
+      }
+    });
+  }
 
-  cookies.forEach((cookie) => {
-    if (/adminAuth/.test(cookie)) {
-      authCookie = cookie;
-    }
-  });
+  // console.log(cookies);
 
   // console.log(authCookie);
 
@@ -670,7 +673,6 @@ export async function getServerSideProps(context) {
 
   if (!networkErr) {
     posts = await blogPostModel.find({});
-
     posts = JSON.parse(JSON.stringify(posts));
   } else {
     console.log("fix your internet");
