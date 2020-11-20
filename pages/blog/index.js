@@ -124,7 +124,7 @@ const Blog = ({ posts }) => {
                 <div className="row">
                   <div className="sub-title">
                     <h2>My Blog</h2>
-                    <a href="contact.html">
+                    <a href="/#contact">
                       <i className="icon-envelope"></i>
                     </a>
                   </div>
