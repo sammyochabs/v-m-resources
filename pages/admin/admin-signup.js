@@ -143,9 +143,9 @@ const AdminSignUp = () => {
           border-radius: 3px;
         }
         .signup-form {
-          width: 400px;
           margin: 0 auto;
           padding: 30px 0;
+          width: 400px;
         }
         .signup-form form {
           color: #999;
@@ -216,6 +216,11 @@ const AdminSignUp = () => {
           top: 18px;
           font-size: 7px;
           position: absolute;
+        }
+        @media (max-width: 640px) {
+          .signup-form {
+            width: 100%;
+          }
         }
       `}</style>
     </div>

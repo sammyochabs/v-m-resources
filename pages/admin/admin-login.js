@@ -223,6 +223,11 @@ const AdminLogin = () => {
           font-size: 7px;
           position: absolute;
         }
+        @media (max-width: 640px) {
+          .signup-form {
+            width: 100%;
+          }
+        }
       `}</style>
     </div>
   );
