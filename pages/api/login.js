@@ -14,7 +14,6 @@ export default async function (req, res) {
   const method = req.method;
 
   if (method === "POST") {
-    console.log(req.body);
     await adminModel.find(
       { username: req.body.username.toLowerCase() },
       async function (err, siteUser) {

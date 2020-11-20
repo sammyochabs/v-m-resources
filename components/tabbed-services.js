@@ -87,17 +87,17 @@ const TabbedServices = () => {
             </p> */}
             <div className="row leade">
               <div
-                class="col-lg-4 col-md-6 box"
+                className="col-lg-4 col-md-6 box"
                 data-aos="fade-up"
                 data-aos-delay="100"
               >
-                <div class="icon">
-                  <i class="fas fa-suitcase"></i>
+                <div className="icon">
+                  <i className="fas fa-suitcase"></i>
                 </div>
-                <h4 class="title">
+                <h4 className="title">
                   <a href="">Administrative and office support </a>
                 </h4>
-                <p class="description">
+                <p className="description">
                   We can take on any administrative duties including but not
                   limited to data entry, uploading contacts, making calls,
                   creating documents and organizing data. We can take on any of
@@ -106,17 +106,17 @@ const TabbedServices = () => {
                 </p>
               </div>
               <div
-                class="col-lg-4 col-md-6 box"
+                className="col-lg-4 col-md-6 box"
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
-                <div class="icon">
-                  <i class="fa fa-bar-chart"></i>
+                <div className="icon">
+                  <i className="fa fa-bar-chart"></i>
                 </div>
-                <h4 class="title">
+                <h4 className="title">
                   <a href="">Market research/Internet Research </a>
                 </h4>
-                <p class="description">
+                <p className="description">
                   We will research any topic you are in need of more information
                   of and present it to you in a clear and concise way. We can
                   also take this one step further by doing market research on
@@ -125,17 +125,17 @@ const TabbedServices = () => {
                 </p>
               </div>
               <div
-                class="col-lg-4 col-md-6 box"
+                className="col-lg-4 col-md-6 box"
                 data-aos="fade-up"
                 data-aos-delay="300"
               >
-                <div class="icon">
-                  <i class="fas fa-calendar-alt"></i>
+                <div className="icon">
+                  <i className="fas fa-calendar-alt"></i>
                 </div>
-                <h4 class="title">
+                <h4 className="title">
                   <a href="">Event Planning </a>
                 </h4>
-                <p class="description">
+                <p className="description">
                   We will take on all stages of your event that needs to be
                   planned. From planning and research of venues, food, lodging,
                   room set up too all the little details that make your event
@@ -146,17 +146,17 @@ const TabbedServices = () => {
               </div>
 
               <div
-                class="col-lg-4 col-md-6 box"
+                className="col-lg-4 col-md-6 box"
                 data-aos="fade-up"
                 data-aos-delay="300"
               >
-                <div class="icon">
-                  <i class="fas fa-calendar-alt"></i>
+                <div className="icon">
+                  <i className="fas fa-calendar-alt"></i>
                 </div>
-                <h4 class="title">
+                <h4 className="title">
                   <a href="">Calendar and/or Appointment Management</a>
                 </h4>
-                <p class="description">
+                <p className="description">
                   We can take care of all aspects of your calendar from adding
                   appointments and events to blocking out personal time so you
                   can keep that work life balance. Need to cancel or reschedule?
@@ -164,17 +164,17 @@ const TabbedServices = () => {
                 </p>
               </div>
               <div
-                class="col-lg-4 col-md-6 box"
+                className="col-lg-4 col-md-6 box"
                 data-aos="fade-up"
                 data-aos-delay="400"
               >
-                <div class="icon">
-                  <i class="fas fa-tasks"></i>
+                <div className="icon">
+                  <i className="fas fa-tasks"></i>
                 </div>
-                <h4 class="title">
+                <h4 className="title">
                   <a href="">Operational process development </a>
                 </h4>
-                <p class="description">
+                <p className="description">
                   We can look at the big picture of your business strategically
                   and create an operational system that streamlines your
                   organization with optimized communications, accountability and
@@ -183,17 +183,17 @@ const TabbedServices = () => {
                 </p>
               </div>
               <div
-                class="col-lg-4 col-md-6 box"
+                className="col-lg-4 col-md-6 box"
                 data-aos="fade-up"
                 data-aos-delay="400"
               >
-                <div class="icon">
-                  <i class="fas fa-headset"></i>
+                <div className="icon">
+                  <i className="fas fa-headset"></i>
                 </div>
-                <h4 class="title">
+                <h4 className="title">
                   <a href="">CRM management </a>
                 </h4>
-                <p class="description">
+                <p className="description">
                   We can learn any customer relationship data base you currently
                   use and manage your customer relationships and interactions as
                   if you were answering them yourself. Professional, informative
@@ -202,51 +202,51 @@ const TabbedServices = () => {
                 </p>
               </div>
               <div
-                class="col-lg-4 col-md-6 box"
+                className="col-lg-4 col-md-6 box"
                 data-aos="fade-up"
                 data-aos-delay="400"
               >
-                <div class="icon">
-                  <i class="far fa-envelope"></i>
+                <div className="icon">
+                  <i className="far fa-envelope"></i>
                 </div>
-                <h4 class="title">
+                <h4 className="title">
                   <a href="">Email Management </a>
                 </h4>
-                <p class="description">
+                <p className="description">
                   Let us organize you inbox, prioritize your emails and respond
                   if needed in a timely fashion so nothing is forgotten, lost or
                   pushed aside when it should be front and center.
                 </p>
               </div>
               <div
-                class="col-lg-4 col-md-6 box"
+                className="col-lg-4 col-md-6 box"
                 data-aos="fade-up"
                 data-aos-delay="400"
               >
-                <div class="icon">
-                  <i class="fab fa-facebook"></i>
+                <div className="icon">
+                  <i className="fab fa-facebook"></i>
                 </div>
-                <h4 class="title">
+                <h4 className="title">
                   <a href=""> Social Media Implementation &amp; Management</a>
                 </h4>
-                <p class="description">
+                <p className="description">
                   We can implement any social media campaign you have on your
                   radar or manage what you already have going. Instagram,
                   Facebook, LinkedIn or Pinterest? We can do it all.
                 </p>
               </div>
               <div
-                class="col-lg-4 col-md-6 box"
+                className="col-lg-4 col-md-6 box"
                 data-aos="fade-up"
                 data-aos-delay="400"
               >
-                <div class="icon">
-                  <i class="fas fa-calculator"></i>
+                <div className="icon">
+                  <i className="fas fa-calculator"></i>
                 </div>
-                <h4 class="title">
+                <h4 className="title">
                   <a href=""> Accounting, Invoicing &amp; Bookkeeping</a>
                 </h4>
-                <p class="description">
+                <p className="description">
                   We can take all receipts, invoices and payments and complete
                   all the data entry for you in whatever accounting system you
                   have in place. We are also happy to create reports on your
@@ -264,17 +264,17 @@ const TabbedServices = () => {
           >
             <div className="row leade">
               <div
-                class="col-lg-4 col-md-6 box"
+                className="col-lg-4 col-md-6 box"
                 data-aos="fade-up"
                 data-aos-delay="400"
               >
-                <div class="icon">
-                  <i class="fas fa-tasks"></i>
+                <div className="icon">
+                  <i className="fas fa-tasks"></i>
                 </div>
-                <h4 class="title">
+                <h4 className="title">
                   <a href="">Operational Management</a>
                 </h4>
-                <p class="description">
+                <p className="description">
                   This is all things operational in your business. From systems
                   that are used or needed, to creating or improving processes on
                   your day to days. I am here to streamline your operational
@@ -283,34 +283,34 @@ const TabbedServices = () => {
                 </p>
               </div>
               <div
-                class="col-lg-4 col-md-6 box"
+                className="col-lg-4 col-md-6 box"
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
-                <div class="icon">
-                  <i class="fas fa-project-diagram"></i>
+                <div className="icon">
+                  <i className="fas fa-project-diagram"></i>
                 </div>
-                <h4 class="title">
+                <h4 className="title">
                   <a href="">Project Management</a>
                 </h4>
-                <p class="description">
+                <p className="description">
                   Seeing your project through from start to finish. Let me take
                   on the details, timelines and tasks to make your launch, new
                   system, events etc. come together in one perfect package.
                 </p>
               </div>
               <div
-                class="col-lg-4 col-md-6 box"
+                className="col-lg-4 col-md-6 box"
                 data-aos="fade-up"
                 data-aos-delay="400"
               >
-                <div class="icon">
-                  <i class="fas fa-people-carry"></i>
+                <div className="icon">
+                  <i className="fas fa-people-carry"></i>
                 </div>
-                <h4 class="title">
+                <h4 className="title">
                   <a href="">People Management</a>
                 </h4>
-                <p class="description">
+                <p className="description">
                   Whether you are a team of 2 and need to outsource and hire, or
                   a team of 25 and need day to day supervision, we can cater to
                   your business and make sure you have the best team possible to
@@ -318,17 +318,17 @@ const TabbedServices = () => {
                 </p>
               </div>
               <div
-                class="col-lg-4 col-md-6 box"
+                className="col-lg-4 col-md-6 box"
                 data-aos="fade-up"
                 data-aos-delay="400"
               >
-                <div class="icon">
-                  <i class="fa fa-bar-chart"></i>
+                <div className="icon">
+                  <i className="fa fa-bar-chart"></i>
                 </div>
-                <h4 class="title">
+                <h4 className="title">
                   <a href=""> Metric Management</a>
                 </h4>
-                <p class="description">
+                <p className="description">
                   Running the stats on your campaigns, products or social media
                   is imperative to making good business and financial decisions
                   for your current and future business. We make sure you have

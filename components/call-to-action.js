@@ -16,7 +16,7 @@ const CallToAction = () => {
             business&rsquo;s needs. Do not waste any more of your time trying to
             do it all yourself!
           </p>
-          <a class="cta-btn" href="#">
+          <a className="cta-btn" href="#">
             Hire Me
           </a>
         </div>
