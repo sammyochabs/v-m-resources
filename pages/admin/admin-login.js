@@ -35,9 +35,6 @@ const AdminLogin = () => {
 
           const json = await resp.json();
           setMessage(json);
-          if (message === "success") {
-            window.location.assign(".");
-          }
         }
       } else {
         setMessage("please fill all fields");
@@ -119,14 +116,20 @@ const AdminLogin = () => {
               </button>
             </div>
           </form>
-          {/* {message ? (
-            <p className="text-center">{message.message || message}</p>
+          {message ? (
+            message.message === "success" ? (
+              <p className="text-center ">
+                successfull login. You will be redirected to the admin page
+              </p>
+            ) : (
+              <p className="text-center">{message.message}</p>
+            )
           ) : (
             ""
-          )} */}
+          )}
           {message && message.message === "success"
             ? window.location.assign("/admin/add-post")
-            : message}
+            : ""}
         </div>
       </div>
       <style jsx>{`

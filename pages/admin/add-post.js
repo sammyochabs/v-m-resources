@@ -205,6 +205,13 @@ const AddPost = ({ posts, noAuth }) => {
                         </a>
                       </li>
                     </ul>
+                    <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
+                      <li className="nav-item active">
+                        <a className="nav-link text-light" href="/api/log-out">
+                          Log Out
+                        </a>
+                      </li>
+                    </ul>
                   </div>
                 </nav>
 
@@ -418,6 +425,13 @@ const AddPost = ({ posts, noAuth }) => {
                       <li className="nav-item active">
                         <a className="nav-link text-light" href="#">
                           Home <span className="sr-only">(current)</span>
+                        </a>
+                      </li>
+                    </ul>
+                    <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
+                      <li className="nav-item active">
+                        <a className="nav-link text-light" href="/api/log-out">
+                          Log Out
                         </a>
                       </li>
                     </ul>
@@ -771,6 +785,13 @@ const AddPost = ({ posts, noAuth }) => {
                       <li className="nav-item active">
                         <a className="nav-link text-light" href="#">
                           Home <span className="sr-only">(current)</span>
+                        </a>
+                      </li>
+                    </ul>
+                    <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
+                      <li className="nav-item active">
+                        <a className="nav-link text-light" href="/api/log-out">
+                          Log Out
                         </a>
                       </li>
                     </ul>

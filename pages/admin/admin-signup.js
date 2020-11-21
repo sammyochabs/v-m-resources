@@ -117,10 +117,19 @@ const AdminSignUp = () => {
             </div>
           </form>
           {message ? (
-            <p className="text-center">{message.message || message}</p>
+            message.message === "success" ? (
+              <p className="text-center ">
+                successfull... You will be redirected to the login page
+              </p>
+            ) : (
+              <p className="text-center">{message.message}</p>
+            )
           ) : (
             ""
           )}
+          {message && message.message === "success"
+            ? window.location.assign("/admin/admin-login")
+            : ""}
         </div>
       </div>
       <style jsx>{`
